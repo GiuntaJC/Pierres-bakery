@@ -1,6 +1,6 @@
 # _Pierre's Bakery_
 
-#### _Week 7 independent project for Epicodus, 12/11/2020_
+#### _Week 7 independent project for Epicodus, 12/11/2020_ 
 
 #### By _**Joey Giunta**_
 
