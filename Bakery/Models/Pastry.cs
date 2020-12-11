@@ -6,7 +6,19 @@ namespace Bakery.Models
   {
     public int GetPastryPrice(int pastryAmount)
     {
-      return 0;
+      int totalPastryPrice = 0;
+      while(pastryAmount >= 3)
+      {
+        pastryAmount -= 3;
+        totalPastryPrice += 5;
+      }
+      while(pastryAmount >= 1)
+      {
+        pastryAmount-= 1;
+        totalPastryPrice += 2;
+      }
+
+      return totalPastryPrice;
     }
   }
 }
