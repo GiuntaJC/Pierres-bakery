@@ -5,10 +5,10 @@ namespace Bakery.Models
     public int GetBreadPrice(int breadAmount)
     {
       int totalBreadPrice = 0;
-      while(breadAmount >= 2)
+      while(breadAmount >= 3)
       {
-        breadAmount -= 2;
-        totalBreadPrice += 5;
+        breadAmount -= 3;
+        totalBreadPrice += 10;
       }
       if(breadAmount == 1)
       {

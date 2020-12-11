@@ -17,7 +17,7 @@ namespace Bakery.TestTools
     public void BakeryBread_GetTriplePrice()
     {
       BakeryBread testBakeryBread = new BakeryBread();
-      Assert.AreEqual(10, testBakeryBread.GetBreadPrice(3));
+      Assert.AreEqual(15, testBakeryBread.GetBreadPrice(4));
     }
   }
 }
