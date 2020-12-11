@@ -38,8 +38,11 @@ public class Program
     } 
     catch(Exception err)
     {
-      Console.WriteLine($"Error caught: {err}");
+      Console.ForegroundColor = ConsoleColor.Red;
+      Console.WriteLine($"Error caught: {err}{Environment.NewLine}");
+      Console.ForegroundColor = ConsoleColor.Green;
       Console.WriteLine("Make sure you only enter integers");
+      Console.ResetColor();
     }
 	}
 }
