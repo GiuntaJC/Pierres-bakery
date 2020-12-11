@@ -11,7 +11,7 @@ Pierre's Bakery will list the prices of both bread and pastries, ask the user fo
 ## Setup/Installation Requirements
 
 * _Download or clone this repository_
-* _open console in TODO/TODO_
+* _open console in /Bakery_
 * _run "dotnet build"_
 * _run "dotnet run"_
 
