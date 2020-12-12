@@ -27,6 +27,7 @@ public class Program
     Console.WriteLine("Our regular prices are 1 loaf of bread is $5, and pastries are $2 each.");
     Console.WriteLine("Now, what can I get for you? Make sure you include any free loaves in your order!");
     
+    // valid input while loops will repeat if the user enters a non-integer input
     while(!validInput)
     {
       Console.WriteLine("Bread:");
