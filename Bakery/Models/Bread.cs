@@ -2,20 +2,24 @@ namespace Bakery.Models
 {
   public class BakeryBread
   {
+    public int BreadPrice { get; set; }
+    public int BreadAmount { get; set; }
     public int GetBreadPrice(int breadAmount)
     {
-      int totalBreadPrice = 0;
-      while(breadAmount >= 3)
+      BreadAmount = breadAmount;
+      BreadPrice = 0;
+      
+      while(BreadAmount >= 3)
       {
-        breadAmount -= 3;
-        totalBreadPrice += 10;
+        BreadAmount -= 3;
+        BreadPrice += 10;
       }
-      if(breadAmount == 1)
+      if(BreadAmount == 1)
       {
-        totalBreadPrice += 5;
+        BreadPrice += 5;
       }
 
-      return totalBreadPrice;
+      return BreadPrice;
     }
   }
 }
